@@ -1,0 +1,6 @@
+**********************************************************************************************************************************************
+AUTHOR: Adam Seif
+**********************************************************************************************************************************************
+
+This was done as an excercise to display some simple and advanced SQL queries including a few joins.
+Each query is given a comment to describe it, and the provided SQL_Output.txt displays the results of all the queries.
