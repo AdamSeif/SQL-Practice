@@ -1,4 +1,4 @@
-USE assign2db;
+USE db;
 
 -- ---------
 -- Part 1 SQL Updates

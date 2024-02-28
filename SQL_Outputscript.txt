@@ -487,7 +487,7 @@ SELECT * FROM hates
 DELETE FROM ta WHERE tauserid = 'mgeller'
 --------------
 
-ERROR 1451 (23000) at line 122: Cannot delete or update a parent row: a foreign key constraint fails (`assign2db`.`hasworkedon`, CONSTRAINT `hasworkedon_ibfk_1` FOREIGN KEY (`tauserid`) REFERENCES `ta` (`tauserid`) ON DELETE RESTRICT)
+ERROR 1451 (23000) at line 122: Cannot delete or update a parent row: a foreign key constraint fails (`db`.`hasworkedon`, CONSTRAINT `hasworkedon_ibfk_1` FOREIGN KEY (`tauserid`) REFERENCES `ta` (`tauserid`) ON DELETE RESTRICT)
 --------------
 ALTER TABLE ta ADD image VARCHAR(200)
 --------------
